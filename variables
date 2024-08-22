@@ -1,0 +1,52 @@
+package sahil;
+
+public class variables {
+
+	public static void main(String[] args) {
+		//byte
+		byte minbyte = Byte.MIN_VALUE;
+		byte maxbyte = Byte.MAX_VALUE;
+		
+		System.out.println("min value byte ="+minbyte);
+		System.out.println("max value byte ="+maxbyte);
+	
+		//short
+		
+		short minshort = Short.MIN_VALUE;
+		short maxshort = Short.MAX_VALUE;
+		
+		System.out.println("min value short ="+minshort);
+		System.out.println("max value short ="+maxshort);
+		 //int
+		int minint = Integer.MIN_VALUE;
+		int maxint = Integer.MAX_VALUE;
+		
+		System.out.println("min value int ="+minint);
+		System.out.println("max value int ="+maxint);
+		
+		//long
+		long minlong = Long.MIN_VALUE;
+		long maxlong = Long.MAX_VALUE;
+		
+		System.out.println("min value long ="+minlong);
+		System.out.println("max value long ="+maxlong);
+		
+		//float
+		float minfloat = Float.MIN_VALUE;
+		float maxfloat = Float.MAX_VALUE;
+		
+		System.out.println("min value float ="+minfloat);
+		System.out.println("max value float ="+maxfloat);
+		
+		//double
+		double mindouble = Double.MIN_VALUE;
+		double maxdouble = Double.MAX_VALUE;
+		
+		System.out.println("min value double ="+mindouble);
+		System.out.println("max value double ="+maxdouble);
+		
+	
+
+	}
+	
+}
