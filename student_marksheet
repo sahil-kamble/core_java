@@ -1,0 +1,51 @@
+package aug_20;
+
+import java.util.Scanner;
+public class userInput {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		    System.out.print("Enter Student Name: ");
+	      String name = sc.nextLine();
+	      System.out.print("Enter Roll Number: ");
+	      String rollNumber = sc.nextLine();
+	      System.out.print("Enter Class: ");
+	      String studentClass = sc.nextLine();
+	      System.out.print(" Enter JAVA Marks :  ");
+		    int  javamarks = sc.nextInt();
+		    System.out.print("Enter C++ Marks :  ");
+		    int cppmarks = sc.nextInt();
+		    System.out.print(" Enter Python Marks :  ");
+		    int pythonMarks = sc.nextInt();
+		    System.out.print(" Enter Ruby Marks :  ");
+		    int RubyMarks = sc.nextInt();
+		    System.out.print(" Enter SQL Marks :   ");
+		    int sqlmarks = sc.nextInt();
+		
+		
+		    
+		  int totalMarks = javamarks + cppmarks + pythonMarks + RubyMarks +  sqlmarks;
+		  int Percentage = (totalMarks*100) / 500;
+		  
+		  //output
+		    System.out.println("---------------------");
+		    
+		  System.out.println("Student Name: " + name);
+		  System.out.println("Roll Number: " + rollNumber);
+		  System.out.println("class: " + studentClass);
+		  System.out.println("JAVA Marks : " + javamarks + "/100");
+		  System.out.println("Python Marks: " + pythonMarks + "/100" );
+		  System.out.println("Ruby Marks: " + RubyMarks + "/100");
+		  System.out.println("SQL Marks: " + sqlmarks + "/100");
+		  
+		  System.out.println("Total Marks: " + totalMarks + "/500");
+		  System.out.println("Percentage: " + Percentage + "%");
+		  
+
+	}
+
+}
+
+
+
