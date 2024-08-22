@@ -1,0 +1,9 @@
+package sahil;
+
+ class Basic {
+	public static void main(String[] args){
+	   System.out.println ("welcome");
+	   System.out.println ("456789568");
+	   System.out.println ("your number is " + 458547+ (45+65));
+}
+}
