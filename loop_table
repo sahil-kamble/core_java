@@ -1,0 +1,16 @@
+package aug_27;
+import java.util.Scanner;
+public class loop {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num;
+		System.out.print("Enter number: ");     
+		 num =sc.nextInt(); 
+		
+		for(int a=1; a<= 10; a++) {
+		System.out.println(num*a); 
+		}
+	}
+
+}
