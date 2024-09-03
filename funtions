@@ -1,0 +1,51 @@
+package aug_29;
+import java.util.Scanner;
+public class funtions {
+	
+	
+	
+	static void bill (int price,int gst,int Qty){
+		
+		 int totalPrice = price * Qty;
+		 
+		 int gstAmount = (totalPrice * gst) / 100;
+	        
+	     int finalAmount = totalPrice + gstAmount;
+	     
+	     
+	     System.out.println("-bill---------------");
+	        System.out.println("Price: " + price);
+	        System.out.println("Quantity: " + Qty);
+	       
+	        System.out.println("GST: " + gst + "%");
+	        System.out.println("GST Amount: " + gstAmount);
+	        System.out.println("Final Amount: " + finalAmount);
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		  Scanner scanner = new Scanner(System.in);
+		  
+		  System.out.print("Enter the price  ");
+	        int price = scanner.nextInt();
+	        
+	        System.out.print("Enter the GST  ");
+	        int gst = scanner.nextInt();
+	        
+	        System.out.print("Enter the quantity: ");
+	        int Qty = scanner.nextInt();
+	        
+	        
+	        bill(price, gst, Qty);
+	        
+		
+	
+	}
+}
+	
+
+
+	
+
