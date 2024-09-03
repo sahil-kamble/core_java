@@ -1,0 +1,32 @@
+package aug_20;
+
+public class array {
+	
+	static void print_array() {
+		
+		String data[] = new String[4];
+		
+		data[0] = "sai";
+		data[1] = "ravi";
+		data[2] = "neha";
+		data[3] = "dev";
+		 
+        //System.out.println(data[3]);
+		
+		for (int i = 0; i < data.length; i++) {
+			  System.out.println(data[i]);
+			}
+		
+	}
+
+	public static void main(String[] args) {
+		
+		print_array();
+	
+		}
+
+	
+
+	}
+
+
