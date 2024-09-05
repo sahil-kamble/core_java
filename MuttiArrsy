@@ -1,0 +1,87 @@
+package aug_05;
+
+public class muttiarrsy {
+
+	public static void main(String[] args) {
+		
+		int data [][] = new int[4][4];
+		
+		data[0][0]=10;
+		data[0][1]=11;
+		data[0][2]=12;
+		data[0][3]=13;
+		
+		data[1][0]=20;
+		data[1][1]=21;
+		data[1][2]=23;
+		data[1][3]=24;
+		
+		data[2][0]=31;
+		data[2][1]=32;
+		data[2][2]=33;
+		data[2][3]=34;
+		
+		data[3][0]=41;
+		data[3][1]=42;
+		data[3][2]=43;
+		data[3][3]=44;
+		
+		
+		
+		
+		for (int i = 0; i < data.length; i++) {
+			
+            for (int j = 0; j < data[i].length; j++) {
+            	
+                System.out.print(data[i][j] + " ");
+            }
+            System.out.println();
+        }
+}
+
+
+//Arraycharacter 
+
+
+
+package aug_20;
+
+public class arreychr {
+
+	public static void main(String[] args) {
+		       
+    String data [][] = new String [4][4];
+		
+		data[0][0]="aa";
+		data[0][1]="sa";
+		data[0][2]="qa";
+		data[0][3]="ta";
+		
+		data[1][0]="ya";
+		data[1][1]="da";
+		data[1][2]="ua";
+		data[1][3]="ra";
+		
+		data[2][0]="au";
+		data[2][1]="ae";
+		data[2][2]="ag";
+		data[2][3]="ga";
+		
+		data[3][0]="af";
+		data[3][1]="ac";
+		data[3][2]="am";
+		data[3][3]="aj";
+		
+		
+		
+		
+		for (int i = 0; i < data.length; i++) {
+			
+            for (int j = 0; j < data[i].length; j++) {
+            	
+                System.out.print(data[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
