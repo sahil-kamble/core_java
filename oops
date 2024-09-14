@@ -1,0 +1,47 @@
+package sep_14;
+
+public class baise {
+	
+   int a =45;
+   int b =5; 
+  
+  void add() {
+	  
+	  System.out.println(a+b);
+  }
+	  
+   void sub() {
+		  
+	  System.out.println(a-b);
+   }
+	  
+    void muty() {
+			  
+	 System.out.println(a*b);
+    }
+	 
+  void div() {
+		  
+	 System.out.println(a/b);
+	  
+  }
+  
+  
+  
+  
+  
+  public static void main(String[] args) {
+	  
+	  baise obj = new baise();
+	  
+	   obj.add();
+	   obj.sub();
+	   obj.muty();
+	   obj.div();
+	  
+	  
+	  
+	  
+  }
+
+}
