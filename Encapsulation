@@ -1,0 +1,62 @@
+package Encapsulation;
+
+public class creditcard {
+
+	int Cardno;
+	 String Bankname;
+	 
+	 
+	 creditcard (int cardno,String bankname){
+		 Cardno =cardno;
+		 Bankname =bankname;
+		 
+
+	}
+	 
+	 int getCardno() {
+	 return Cardno;
+		 
+		 
+	 }
+
+	 String getbankname() {
+	 return Bankname;
+	 
+	 }
+	 
+	 void setCardno(int cardno) {
+	  Cardno = cardno;
+	 }
+	 
+	 void setBankname(String bankname) {
+	  Bankname =  bankname;
+	}
+	 
+	
+	 
+}
+
+
+//call fu ntions
+
+
+
+package Encapsulation;
+
+public class customer {
+
+	public static void main(String[] args) {
+		creditcard creditcard = new creditcard(12222, "sbi");
+		
+		System.out.println("your card no "+creditcard.getCardno());
+		System.out.println("your bank name "+creditcard.getbankname());
+		
+		creditcard.setBankname("hdfc");
+		creditcard.setCardno(455545);
+		
+		System.out.println("your bank name "+creditcard.getbankname());
+		System.out.println("your card no "+creditcard.getCardno());
+
+	}
+
+}
