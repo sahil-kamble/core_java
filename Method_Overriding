@@ -1,0 +1,32 @@
+package sep_19;
+
+public class MethodOverriding {
+	
+	void info() {
+		
+		System.out.print("wlecome to my city");
+		
+	}
+   void info(String name) {
+		
+		System.out.print("name "+name);
+  }
+   void info(float hight,int age) {
+		
+		System.out.print("hight " +hight);
+		System.out.print("age " +age);
+ }
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		MethodOverriding obj = new MethodOverriding ();
+	
+		obj.info();
+		obj.info("sahil");
+		obj.info(5.5f,21);
+	}
+
+}
