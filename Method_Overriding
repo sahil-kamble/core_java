@@ -4,17 +4,17 @@ public class MethodOverriding {
 	
 	void info() {
 		
-		System.out.print("wlecome to my city");
+		System.out.println("wlecome to my city");
 		
 	}
    void info(String name) {
 		
-		System.out.print("name "+name);
+		System.out.println("name "+name);
   }
    void info(float hight,int age) {
 		
-		System.out.print("hight " +hight);
-		System.out.print("age " +age);
+		System.out.println("hight " +hight);
+		System.out.println("age " +age);
  }
 	
 	
