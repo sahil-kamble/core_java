@@ -1,0 +1,32 @@
+package sep_21;
+
+class custumers{
+
+   void get_info() {
+			 System.out.println("custumers info");
+			 System.out.println("name = sahil");
+		 }
+
+}
+
+ class orders extends custumers{
+	 
+	 void get_order_info() {
+		 System.out.println("computer - 500");
+		 
+	 }
+	 
+ }
+
+
+
+
+public class single {
+	
+public static void main(String[] args) {
+		 orders ord = new orders();
+        ord.get_info();
+        ord.get_order_info();
+	}
+
+}
